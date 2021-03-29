@@ -1,5 +1,5 @@
 {
-    "name": "prowebce/database-anonymizer-bundle",
+    "name": "ismail1432/database-anonymizer-bundle",
     "type": "symfony-bundle",
     "description": "Database anonymizer bundle.",
     "keywords": [
