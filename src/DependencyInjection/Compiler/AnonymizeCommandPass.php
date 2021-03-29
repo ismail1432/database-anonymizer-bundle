@@ -55,5 +55,7 @@ class AnonymizeCommandPass implements CompilerPassInterface
 
             $anonymizeCommandDefinition->addMethodCall('enableAnnotations', [new Reference(AnnotationConfigFactory::class)]);
         }
+
+        $anonymizeCommandDefinition->addMethodCall('setAnonymizer', [new Reference(Anonymizer::class)]);
     }
 }
